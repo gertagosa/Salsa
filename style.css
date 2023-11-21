@@ -1,3 +1,29 @@
 body {
   background-color: plum;
 }
+
+h1,
+h2 {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid plum;
+  background-color: aliceblue;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
