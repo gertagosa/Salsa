@@ -9,6 +9,7 @@ h2 {
 
 .container {
   max-width: 600px;
+  margin: 20px auto;
   background: white;
   padding: 20px;
   border-radius: 10px;
@@ -26,4 +27,26 @@ button {
   font-size: 20px;
   border-radius: 6px;
   padding: 10px 15px;
+  transition: all 150ms ease-in;
+}
+
+button:hover {
+  background-color: plum;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 18px;
+}
+.theme-button {
+  font-size: 10px;
+  color: white;
+  background: black;
+  padding: 5 8px;
+}
+
+.theme-button:hover {
+  background-color: white;
+  color: black;
 }
