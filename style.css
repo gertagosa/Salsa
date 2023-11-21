@@ -50,3 +50,11 @@ footer {
   background-color: white;
   color: black;
 }
+.salsa-intro-picture {
+  border-radius: 10px;
+  transition: all 150ms ease-in-out;
+}
+.salsa-intro-picture:hover {
+  filter: contrast(80%);
+  transform: scale(1.2);
+}
