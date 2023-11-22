@@ -68,5 +68,20 @@ footer {
 .grid img {
   width: 100%;
   border-radius: 8px;
-  object-fit: cover;
+  transition: all 150ms ease-in-out;
+}
+.grid ing:hover {
+  transform: scale(2);
+}
+
+.dark {
+  background: black;
+  color: white;
+}
+
+.dark .container {
+  background: rgba(255, 255, 255, 0.1);
+}
+.dark a {
+  color: plum;
 }
