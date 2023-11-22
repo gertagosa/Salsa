@@ -51,9 +51,24 @@
       <button>Learn Salsa</button>
     </div>
     <footer>
-      Coded by <a href="https;//www.gertagosa.com>" target="_blank"></a>Gerta
-      Gosa
+      Coded by
+      <a href="https;//www.gertagosa.com>" target="_blank"> Gerta Gosa</a>
     </footer>
-    <script src="script.js"></script>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        // body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
   </body>
 </html>
